@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+  margin: 0;
+}
+
+.links {
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px 20px 10px;
+  box-shadow: 0 4px 7px -2px gray;
+}
+
+.logo {
+  width: 40px;
+}
+
+.footer {
+  background-color: #565556;
+  padding: 20px 10px;
+  color: #fff;
+}
+
+.main {
+  padding: 20px 10px;
+}

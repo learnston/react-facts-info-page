@@ -1,0 +1,71 @@
+.navbar {
+  background-color: #21222a;
+  padding: 30px 15px;
+  height: 90px;
+}
+
+.logo {
+  width: 30px;
+  margin-right: 3px;
+}
+
+.logo--text {
+  color: #61dafb;
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 22.2535px;
+  line-height: 27px;
+  letter-spacing: -0.05em;
+}
+
+.nav--text {
+  color: #deebf8;
+  font-weight: 600;
+  line-height: 19px;
+}
+
+/* main section */
+
+.main {
+  background-color: #282d35;
+  color: #ffffff;
+  padding: 60px 15px;
+  background-image: url(assets/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: bottom 40% right;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 39.06px;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+  margin-bottom: 35px;
+}
+
+.list {
+  margin: 0;
+}
+
+.list--item {
+  position: relative;
+  margin-bottom: 18px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  max-width: 400px;
+  padding-left: 1.6em;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+.list--item::before {
+  color: #61dafb; /* Change the color */
+  content: '\2022';
+  font-size: 30px;
+  line-height: 15px; /*match the li line-height for vertical centered bullets*/
+  position: absolute;
+  left: 0;
+}
